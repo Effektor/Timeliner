@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">Timeliner</string>
-    <string name="welcome_message">Welcome to Timeliner!</string>
+    
+    <!-- Main Screen -->
+    <string name="app_title">Timeline Companion</string>
+    <string name="instructions">This app helps you export your Google Maps Timeline data and upload it to a web service. Follow the steps below:</string>
+    
+    <!-- Folder Section -->
+    <string name="folder_section_title">1. Choose Export Folder</string>
+    <string name="btn_choose_folder">Choose Export Folder</string>
+    <string name="folder_not_selected">No folder selected. Please choose a folder where you will save Timeline exports.</string>
+    <string name="folder_selected">Selected folder: %1$s</string>
+    
+    <!-- Export Section -->
+    <string name="export_section_title">2. Export Timeline Data</string>
+    <string name="export_instructions">Open Location Settings, navigate to Timeline, and export your Timeline data. Save the exported JSON file to the folder you selected above.</string>
+    <string name="btn_open_settings">Open Location Settings</string>
+    
+    <!-- File Status Section -->
+    <string name="file_section_title">Latest Export File</string>
+    <string name="no_folder_selected">Select a folder first</string>
+    <string name="no_json_files_found">No JSON files found in the selected folder. Export your Timeline data first.</string>
+    <string name="latest_file_found">File: %1$s\nModified: %2$s</string>
+    <string name="error_scanning_folder">Error scanning folder. Check permissions.</string>
+    
+    <!-- Upload Section -->
+    <string name="upload_section_title">3. Upload Timeline Data</string>
+    <string name="btn_upload">Send Latest Export Now</string>
+    <string name="no_uploads_yet">No uploads yet</string>
+    <string name="last_upload_success">Last upload: %1$s</string>
 </resources>
